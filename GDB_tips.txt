@@ -1,0 +1,21 @@
+GDB tips
+
+g++ -g file.cpp -o app
+gdb app --args app arg1 arg2 arg...
+list 				# see all the file
+r 					# run programm
+b <N> 				# set a breakpoint at line N
+info locals 		# info about local vars
+info threads		# info about threads
+print <var>			# print var's info
+print <a+N>			# print *(a + N) info
+set <var> = <val> 	# set var's val
+watch <var>			# watch var's value
+info registers		# info about registers
+info breakpoints	# info about breakpoints
+del <N>				# delete breakpoint #N
+c 					# continue to the next breakpoint
+n 					# next instruction
+call <F>			# call local function
+fin					# go to the end of the current function
+kill				# stop the programm
