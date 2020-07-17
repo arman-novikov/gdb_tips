@@ -1,7 +1,7 @@
 GDB tips
 
 g++ -g file.cpp -o app
-gdb app --args app arg1 arg2 arg...
+gdb --args ./app app arg1 arg2 arg...
 list 				# see all the file
 r 					# run programm
 b <N> 				# set a breakpoint at line N
